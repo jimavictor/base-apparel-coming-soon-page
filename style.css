@@ -123,10 +123,11 @@ p{
         width: 100vw;
         flex-direction: row-reverse;
         overflow: auto;
+        background-image: url(images/bg-pattern-desktop.svg);
     }
     #logo-desktop{
         display: block;
-        margin: 2rem 1rem 8rem 3rem;
+        margin: 4rem 1rem 8rem 3rem;
     }
     article{
         align-items: flex-start;
@@ -140,6 +141,7 @@ p{
         margin-bottom: 1.5rem;
         letter-spacing: 1.4rem;
         font-size: 2.5rem;
+        font-weight:400;
     }
     p{
         margin-left: 3rem;
