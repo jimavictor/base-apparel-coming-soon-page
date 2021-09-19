@@ -71,7 +71,6 @@ p{
     margin-left: max(20%, 4rem);
 }
 #input-submit{
-    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     padding: 15px 22px 15px 22px;
     margin-left: -3rem;
@@ -79,6 +78,10 @@ p{
     width: 4rem; 
     height: 3.2rem;
     outline: none;
+}
+#input-submit:hover{
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 73%, 78%));
+    box-shadow: 10px 10px 10px rgb(212, 211, 211);  
 }
 @media only screen and (min-width: 425px){
     #mobile-image{
@@ -142,7 +145,7 @@ p{
         margin-bottom: 1.5rem;
         letter-spacing: 1.4rem;
         font-size: 2.5rem;
-        font-weight:400;
+        font-weight: 400;
     }
     p{
         margin-left: 3rem;
