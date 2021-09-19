@@ -124,6 +124,7 @@ p{
         flex-direction: row-reverse;
         overflow: auto;
         background-image: url(images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
     }
     #logo-desktop{
         display: block;
