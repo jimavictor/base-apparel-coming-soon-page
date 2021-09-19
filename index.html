@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="images/logo.svg" id="logo-mobile" alt="this is the logo">
+    </div>
+    <div class="main-image">
+        <img src="images/hero-mobile.jpg" id="mobile-image" alt="this is the main image">
+        <img src="images/hero-desktop.jpg" id="desktop-image" alt="this is the main image">
+    </div>
+    <div class="lower-section">
+        <img src="images/logo.svg" id="logo-desktop" alt="this is the logo">
+        <article>
+            <h1> <span class="colored-text">We're</span><br>coming<br>soon</h1>
+            <p class="colored-text">
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+        </article>
+        <div class="email-container">
+            <form class="email-address">
+                <input type="email" id="email-input" class="colored-text" placeholder="Email Address" novalidate>
+                <input type="image" id="input-submit" src="images/icon-arrow.svg" alt="Submit">
+            </form>
+            <p id="error-message">Please provide a valid email</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
