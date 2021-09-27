@@ -114,7 +114,7 @@ p{
     }
     #desktop-image{
         display: block;
-        width: 40vw;
+        width: 45vw;
         height: max(100vh, 38rem);
     }
     .lower-section{
